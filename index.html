@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Şarkı İsteği</title>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Şarkı İsteği</h1>
+        <form id="songRequestForm">
+            <label for="song">Şarkı Adı:</label>
+            <input type="text" id="song" name="song" required>
+            <input type="hidden" id="table" name="table" value="1"> <!-- Masanın ID'si -->
+            <button type="submit">İste</button>
+        </form>
+    </div>
+
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
